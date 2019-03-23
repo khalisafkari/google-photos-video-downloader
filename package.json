@@ -1,0 +1,22 @@
+{
+  "name": "photos-google",
+  "author": {
+    "email": "khalis411@gmail.com",
+    "name": "khalis afkari",
+    "url": "https://verdauen.com"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4"
+  }
+}
