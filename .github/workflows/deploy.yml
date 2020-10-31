@@ -3,7 +3,7 @@ on: [push]
 jobs:
   build:
     run-on: macos-latest
-    step:
+    steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         name: chechout
