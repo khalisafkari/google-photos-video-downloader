@@ -1,0 +1,11 @@
+name: deploy
+on: [push]
+jobs:
+  build:
+    run-on: macos-latest
+    step:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        name: chechout
+      - run : npm install
+      - run : node new.js
